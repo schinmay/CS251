@@ -1,0 +1,502 @@
+USER       PID  PPID   LWP    SZ   RSS START     TIME CMD
+root         1     0     1 29961  5972 03:44 00:00:01 /sbin/init splash
+root         2     0     2     0     0 03:44 00:00:00 [kthreadd]
+root         3     2     3     0     0 03:44 00:00:00 [ksoftirqd/0]
+root         5     2     5     0     0 03:44 00:00:00 [kworker/0:0H]
+root         7     2     7     0     0 03:44 00:00:05 [rcu_sched]
+root         8     2     8     0     0 03:44 00:00:00 [rcu_bh]
+root         9     2     9     0     0 03:44 00:00:00 [migration/0]
+root        10     2    10     0     0 03:44 00:00:00 [watchdog/0]
+root        11     2    11     0     0 03:44 00:00:00 [watchdog/1]
+root        12     2    12     0     0 03:44 00:00:00 [migration/1]
+root        13     2    13     0     0 03:44 00:00:00 [ksoftirqd/1]
+root        15     2    15     0     0 03:44 00:00:00 [kworker/1:0H]
+root        16     2    16     0     0 03:44 00:00:00 [watchdog/2]
+root        17     2    17     0     0 03:44 00:00:00 [migration/2]
+root        18     2    18     0     0 03:44 00:00:00 [ksoftirqd/2]
+root        20     2    20     0     0 03:44 00:00:00 [kworker/2:0H]
+root        21     2    21     0     0 03:44 00:00:00 [watchdog/3]
+root        22     2    22     0     0 03:44 00:00:00 [migration/3]
+root        23     2    23     0     0 03:44 00:00:00 [ksoftirqd/3]
+root        25     2    25     0     0 03:44 00:00:00 [kworker/3:0H]
+root        26     2    26     0     0 03:44 00:00:00 [kdevtmpfs]
+root        27     2    27     0     0 03:44 00:00:00 [netns]
+root        28     2    28     0     0 03:44 00:00:00 [perf]
+root        29     2    29     0     0 03:44 00:00:00 [khungtaskd]
+root        30     2    30     0     0 03:44 00:00:00 [writeback]
+root        31     2    31     0     0 03:44 00:00:00 [ksmd]
+root        32     2    32     0     0 03:44 00:00:00 [khugepaged]
+root        33     2    33     0     0 03:44 00:00:00 [crypto]
+root        34     2    34     0     0 03:44 00:00:00 [kintegrityd]
+root        35     2    35     0     0 03:44 00:00:00 [bioset]
+root        36     2    36     0     0 03:44 00:00:00 [kblockd]
+root        37     2    37     0     0 03:44 00:00:00 [ata_sff]
+root        38     2    38     0     0 03:44 00:00:00 [md]
+root        39     2    39     0     0 03:44 00:00:00 [devfreq_wq]
+root        40     2    40     0     0 03:44 00:00:04 [kworker/u8:1]
+root        43     2    43     0     0 03:44 00:00:00 [kswapd0]
+root        44     2    44     0     0 03:44 00:00:00 [vmstat]
+root        45     2    45     0     0 03:44 00:00:00 [fsnotify_mark]
+root        46     2    46     0     0 03:44 00:00:00 [ecryptfs-kthrea]
+root        62     2    62     0     0 03:44 00:00:00 [kthrotld]
+root        63     2    63     0     0 03:44 00:00:00 [acpi_thermal_pm]
+root        64     2    64     0     0 03:44 00:00:03 [kworker/u8:2]
+root        66     2    66     0     0 03:44 00:00:00 [bioset]
+root        67     2    67     0     0 03:44 00:00:00 [bioset]
+root        68     2    68     0     0 03:44 00:00:00 [bioset]
+root        69     2    69     0     0 03:44 00:00:00 [bioset]
+root        70     2    70     0     0 03:44 00:00:00 [bioset]
+root        71     2    71     0     0 03:44 00:00:00 [bioset]
+root        72     2    72     0     0 03:44 00:00:00 [bioset]
+root        73     2    73     0     0 03:44 00:00:00 [bioset]
+root        78     2    78     0     0 03:44 00:00:00 [ipv6_addrconf]
+root        91     2    91     0     0 03:44 00:00:00 [deferwq]
+root        92     2    92     0     0 03:44 00:00:00 [charger_manager]
+root       141     2   141     0     0 03:44 00:00:00 [scsi_eh_0]
+root       142     2   142     0     0 03:44 00:00:00 [scsi_tmf_0]
+root       143     2   143     0     0 03:44 00:00:00 [scsi_eh_1]
+root       144     2   144     0     0 03:44 00:00:00 [scsi_tmf_1]
+root       149     2   149     0     0 03:44 00:00:00 [bioset]
+root       150     2   150     0     0 03:44 00:00:00 [bioset]
+root       154     2   154     0     0 03:44 00:00:00 [scsi_eh_2]
+root       155     2   155     0     0 03:44 00:00:00 [scsi_tmf_2]
+root       156     2   156     0     0 03:44 00:00:00 [bioset]
+root       180     2   180     0     0 03:44 00:00:00 [kworker/2:1H]
+root       182     2   182     0     0 03:44 00:00:00 [jbd2/sda6-8]
+root       183     2   183     0     0 03:44 00:00:00 [ext4-rsv-conver]
+root       219     2   219     0     0 03:44 00:00:00 [kauditd]
+root       221     1   221  8848  5560 03:44 00:00:01 /lib/systemd/systemd-journald
+root       224     2   224     0     0 03:44 00:00:00 [kworker/3:1H]
+root       235     2   235     0     0 03:44 00:00:00 [kworker/1:1H]
+root       236     2   236     0     0 03:44 00:00:00 [kworker/0:1H]
+root       240     1   240 11732  5964 03:44 00:00:01 /lib/systemd/systemd-udevd
+root       306     2   306     0     0 03:44 00:00:00 [irq/129-mei_me]
+root       350     2   350     0     0 03:44 00:00:00 [cfg80211]
+root       360     2   360     0     0 03:44 00:00:00 [kworker/u9:0]
+root       361     2   361     0     0 03:44 00:00:00 [hci0]
+root       362     2   362     0     0 03:44 00:00:00 [hci0]
+root       364     2   364     0     0 03:44 00:00:00 [kworker/u9:2]
+root       533     2   533     0     0 03:44 00:00:00 [kvm-irqfd-clean]
+root       619     2   619     0     0 03:44 00:00:00 [led_workqueue]
+root       628     2   628     0     0 03:44 00:00:00 [kmemstick]
+root       637     2   637     0     0 03:44 00:00:00 [rtsx_usb_ms_1]
+root       640     2   640     0     0 03:44 00:00:00 [irq/109-ELAN100]
+root       791     1   791 41602  8824 03:44 00:00:00 /usr/sbin/thermald --no-daemon --dbus-enable
+root       791     1   894 41602  8824 03:45 00:00:00 /usr/sbin/thermald --no-daemon --dbus-enable
+root       795     1   795 84336  8588 03:44 00:00:00 /usr/sbin/ModemManager
+root       795     1   821 84336  8588 03:44 00:00:00 /usr/sbin/ModemManager
+root       795     1   824 84336  8588 03:44 00:00:00 /usr/sbin/ModemManager
+syslog     797     1   797 64098  3360 03:44 00:00:00 /usr/sbin/rsyslogd -n
+syslog     797     1   818 64098  3360 03:44 00:00:00 /usr/sbin/rsyslogd -n
+syslog     797     1   819 64098  3360 03:44 00:00:00 /usr/sbin/rsyslogd -n
+syslog     797     1   820 64098  3360 03:44 00:00:00 /usr/sbin/rsyslogd -n
+message+   804     1   804 11072  5196 03:44 00:00:02 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation
+root       825     1   825 112332 16548 03:44 00:00:01 /usr/sbin/NetworkManager --no-daemon
+root       825     1   930 112332 16548 03:45 00:00:00 /usr/sbin/NetworkManager --no-daemon
+root       825     1   932 112332 16548 03:45 00:00:00 /usr/sbin/NetworkManager --no-daemon
+root       827     1   827  1099  1272 03:44 00:00:00 /usr/sbin/acpid
+root       828     1   828 71661 24928 03:44 00:00:00 /usr/lib/snapd/snapd
+root       828     1   949 71661 24928 03:45 00:00:00 /usr/lib/snapd/snapd
+root       828     1   950 71661 24928 03:45 00:00:00 /usr/lib/snapd/snapd
+root       828     1   951 71661 24928 03:45 00:00:00 /usr/lib/snapd/snapd
+root       828     1   975 71661 24928 03:45 00:00:00 /usr/lib/snapd/snapd
+root       828     1   976 71661 24928 03:45 00:00:00 /usr/lib/snapd/snapd
+root       828     1   977 71661 24928 03:45 00:00:00 /usr/lib/snapd/snapd
+root       828     1   978 71661 24928 03:45 00:00:00 /usr/lib/snapd/snapd
+root       829     1   829  7252  3052 03:44 00:00:00 /usr/sbin/cron -f
+root       830     1   830  7989  4240 03:44 00:00:00 /usr/lib/bluetooth/bluetoothd
+root       833     1   833  7159  3108 03:44 00:00:00 /lib/systemd/systemd-logind
+avahi      835     1   835 11225  3620 03:44 00:00:00 avahi-daemon: running [Sid.local]
+root       837     1   837 68966  6324 03:44 00:00:00 /usr/lib/accountsservice/accounts-daemon
+root       837     1   895 68966  6324 03:45 00:00:00 /usr/lib/accountsservice/accounts-daemon
+root       837     1   897 68966  6324 03:45 00:00:00 /usr/lib/accountsservice/accounts-daemon
+root       860     1   860 70468  8476 03:45 00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+root       860     1   863 70468  8476 03:45 00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+root       860     1   865 70468  8476 03:45 00:00:00 /usr/lib/policykit-1/polkitd --no-debug
+avahi      873   835   873 11196   336 03:45 00:00:00 avahi-daemon: chroot helper
+root       893     1   893  4900   252 03:45 00:00:00 /usr/sbin/irqbalance --pid=/var/run/irqbalance.pid
+root       935     1   935 87602  6216 03:45 00:00:00 /usr/sbin/lightdm
+root       935     1   952 87602  6216 03:45 00:00:00 /usr/sbin/lightdm
+root       935     1   954 87602  6216 03:45 00:00:00 /usr/sbin/lightdm
+root       941     1   941 16377  5776 03:45 00:00:00 /usr/sbin/sshd -D
+root       960   935   960 139117 125988 03:45 00:07:18 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root       960   935   981 139117 125988 03:45 00:00:01 /usr/lib/xorg/Xorg -core :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root       979     1   979 11007  6564 03:45 00:00:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+whoopsie   996     1   996 93497 12408 03:45 00:00:00 /usr/bin/whoopsie -f
+whoopsie   996     1  1012 93497 12408 03:45 00:00:00 /usr/bin/whoopsie -f
+whoopsie   996     1  1013 93497 12408 03:45 00:00:00 /usr/bin/whoopsie -f
+root      1002     1  1002  3984  1812 03:45 00:00:00 /sbin/agetty --noclear tty1 linux
+root      1073   935  1073 57576  6412 03:45 00:00:00 lightdm --session-child 12 19
+root      1073   935  1202 57576  6412 03:45 00:00:00 lightdm --session-child 12 19
+root      1073   935  1203 57576  6412 03:45 00:00:00 lightdm --session-child 12 19
+rtkit     1132     1  1132 45886  2924 03:45 00:00:00 /usr/lib/rtkit/rtkit-daemon
+rtkit     1132     1  1134 45886  2924 03:45 00:00:00 /usr/lib/rtkit/rtkit-daemon
+rtkit     1132     1  1135 45886  2924 03:45 00:00:00 /usr/lib/rtkit/rtkit-daemon
+root      1140     1  1140 86818 11940 03:45 00:00:00 /usr/lib/upower/upowerd
+root      1140     1  1148 86818 11940 03:45 00:00:00 /usr/lib/upower/upowerd
+root      1140     1  1149 86818 11940 03:45 00:00:00 /usr/lib/upower/upowerd
+root      1185     2  1185     0     0 03:45 00:00:00 [krfcommd]
+colord    1187     1  1187 75300 11104 03:45 00:00:00 /usr/lib/colord/colord
+colord    1187     1  1192 75300 11104 03:45 00:00:00 /usr/lib/colord/colord
+colord    1187     1  1194 75300 11104 03:45 00:00:00 /usr/lib/colord/colord
+schinmay  1209     1  1209 11319  4752 03:45 00:00:00 /lib/systemd/systemd --user
+schinmay  1210  1209  1210 15865  2088 03:45 00:00:00 (sd-pam)
+schinmay  1216     1  1216 52036  9964 03:45 00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+schinmay  1216     1  1217 52036  9964 03:45 00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+schinmay  1216     1  1480 52036  9964 03:45 00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+schinmay  1216     1  1501 52036  9964 03:45 00:00:00 /usr/bin/gnome-keyring-daemon --daemonize --login
+schinmay  1222  1073  1222 11613  4704 03:45 00:00:00 /sbin/upstart --user
+nobody    1279   825  1279 13216  4100 03:45 00:00:00 /usr/sbin/dnsmasq --no-resolv --keep-in-foreground --no-hosts --bind-interfaces --pid-file=/var/run/NetworkManager/dnsmasq.pid --listen-address=127.0.1.1 --cache-size=0 --conf-file=/dev/null --proxy-dnssec --enable-dbus=org.freedesktop.NetworkManager.dnsmasq --conf-dir=/etc/NetworkManager/dnsmasq.d
+schinmay  1419  1222  1419  8215   280 03:45 00:00:00 upstart-udev-bridge --daemon --user
+schinmay  1429  1222  1429 11007  4500 03:45 00:00:05 dbus-daemon --fork --session --address=unix:abstract=/tmp/dbus-ronU8lveS8
+schinmay  1441  1222  1441 21586 10008 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/hud/window-stack-bridge
+schinmay  1467  1222  1467  8198   292 03:45 00:00:01 upstart-dbus-bridge --daemon --session --user --bus-name session
+schinmay  1469  1222  1469  8198   292 03:45 00:00:00 upstart-dbus-bridge --daemon --system --user --bus-name system
+schinmay  1473  1222  1473 10321   384 03:45 00:00:00 upstart-file-bridge --daemon --user
+schinmay  1474  1222  1474 86581  7924 03:45 00:00:03 /usr/bin/ibus-daemon --daemonize --xim --address unix:tmpdir=/tmp/ibus
+schinmay  1474  1222  1485 86581  7924 03:45 00:00:00 /usr/bin/ibus-daemon --daemonize --xim --address unix:tmpdir=/tmp/ibus
+schinmay  1474  1222  1486 86581  7924 03:45 00:00:05 /usr/bin/ibus-daemon --daemonize --xim --address unix:tmpdir=/tmp/ibus
+schinmay  1488  1222  1488 68636  6420 03:45 00:00:00 /usr/lib/gvfs/gvfsd
+schinmay  1488  1222  1489 68636  6420 03:45 00:00:00 /usr/lib/gvfs/gvfsd
+schinmay  1488  1222  1490 68636  6420 03:45 00:00:00 /usr/lib/gvfs/gvfsd
+schinmay  1493  1222  1493 101716 6924 03:45 00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+schinmay  1493  1222  1496 101716 6924 03:45 00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+schinmay  1493  1222  1497 101716 6924 03:45 00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+schinmay  1493  1222  1498 101716 6924 03:45 00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+schinmay  1493  1222  1499 101716 6924 03:45 00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+schinmay  1493  1222  1500 101716 6924 03:45 00:00:00 /usr/lib/gvfs/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+schinmay  1503  1474  1503 66066  8152 03:45 00:00:00 /usr/lib/ibus/ibus-dconf
+schinmay  1503  1474  1507 66066  8152 03:45 00:00:00 /usr/lib/ibus/ibus-dconf
+schinmay  1503  1474  1508 66066  8152 03:45 00:00:00 /usr/lib/ibus/ibus-dconf
+schinmay  1503  1474  1510 66066  8152 03:45 00:00:00 /usr/lib/ibus/ibus-dconf
+schinmay  1504  1474  1504 119568 30328 03:45 00:00:01 /usr/lib/ibus/ibus-ui-gtk3
+schinmay  1504  1474  1519 119568 30328 03:45 00:00:00 /usr/lib/ibus/ibus-ui-gtk3
+schinmay  1504  1474  1522 119568 30328 03:45 00:00:00 /usr/lib/ibus/ibus-ui-gtk3
+schinmay  1504  1474  1523 119568 30328 03:45 00:00:01 /usr/lib/ibus/ibus-ui-gtk3
+schinmay  1506  1222  1506 106944 20636 03:45 00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+schinmay  1506  1222  1518 106944 20636 03:45 00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+schinmay  1506  1222  1520 106944 20636 03:45 00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+schinmay  1506  1222  1521 106944 20636 03:45 00:00:00 /usr/lib/ibus/ibus-x11 --kill-daemon
+schinmay  1524  1474  1524 47097  5408 03:45 00:00:00 /usr/lib/ibus/ibus-engine-simple
+schinmay  1524  1474  1525 47097  5408 03:45 00:00:00 /usr/lib/ibus/ibus-engine-simple
+schinmay  1524  1474  1526 47097  5408 03:45 00:00:01 /usr/lib/ibus/ibus-engine-simple
+schinmay  1535  1222  1535 131010 29356 03:45 00:00:02 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+schinmay  1535  1222  1536 131010 29356 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+schinmay  1535  1222  1537 131010 29356 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+schinmay  1535  1222  1538 131010 29356 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/bamf/bamfdaemon
+schinmay  1641  1222  1641 41634   628 03:45 00:00:00 gpg-agent --homedir /home/schinmay/.gnupg --use-standard-socket --daemon
+schinmay  1651  1222  1651 164415 48656 03:45 00:00:07 /usr/lib/x86_64-linux-gnu/hud/hud-service
+schinmay  1651  1222  1910 164415 48656 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/hud/hud-service
+schinmay  1651  1222  1911 164415 48656 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/hud/hud-service
+schinmay  1651  1222  1912 164415 48656 03:45 00:00:01 /usr/lib/x86_64-linux-gnu/hud/hud-service
+schinmay  1653  1222  1653 213798 33036 03:45 00:00:00 /usr/lib/unity-settings-daemon/unity-settings-daemon
+schinmay  1653  1222  1670 213798 33036 03:45 00:00:00 /usr/lib/unity-settings-daemon/unity-settings-daemon
+schinmay  1653  1222  1671 213798 33036 03:45 00:00:00 /usr/lib/unity-settings-daemon/unity-settings-daemon
+schinmay  1653  1222  1672 213798 33036 03:45 00:00:00 /usr/lib/unity-settings-daemon/unity-settings-daemon
+schinmay  1658  1222  1658 84502  7808 03:45 00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
+schinmay  1658  1222  1664 84502  7808 03:45 00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
+schinmay  1658  1222  1665 84502  7808 03:45 00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
+schinmay  1658  1222  1668 84502  7808 03:45 00:00:00 /usr/lib/at-spi2-core/at-spi-bus-launcher --launch-immediately
+schinmay  1660  1222  1660 141686 15064 03:45 00:00:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+schinmay  1660  1222  1737 141686 15064 03:45 00:00:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+schinmay  1660  1222  1738 141686 15064 03:45 00:00:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+schinmay  1660  1222  1763 141686 15064 03:45 00:00:00 /usr/lib/gnome-session/gnome-session-binary --session=ubuntu
+schinmay  1663  1222  1663 161410 42240 03:45 00:00:09 /usr/lib/x86_64-linux-gnu/unity/unity-panel-service
+schinmay  1663  1222  1681 161410 42240 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/unity/unity-panel-service
+schinmay  1663  1222  1682 161410 42240 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/unity/unity-panel-service
+schinmay  1663  1222  1683 161410 42240 03:45 00:00:02 /usr/lib/x86_64-linux-gnu/unity/unity-panel-service
+schinmay  1669  1658  1669 10757  3892 03:45 00:00:00 /usr/bin/dbus-daemon --config-file=/etc/at-spi2/accessibility.conf --nofork --print-address 3
+schinmay  1678  1222  1678 51716  6416 03:45 00:00:01 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+schinmay  1678  1222  1679 51716  6416 03:45 00:00:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+schinmay  1678  1222  1680 51716  6416 03:45 00:00:00 /usr/lib/at-spi2-core/at-spi2-registryd --use-gnome-session
+schinmay  1688  1222  1688 88605  7152 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+schinmay  1688  1222  1718 88605  7152 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+schinmay  1688  1222  1722 88605  7152 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+schinmay  1688  1222  1726 88605  7152 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+schinmay  1689  1222  1689 101780 7588 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+schinmay  1689  1222  1693 101780 7588 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+schinmay  1689  1222  1696 101780 7588 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+schinmay  1689  1222  1698 101780 7588 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-bluetooth/indicator-bluetooth-service
+schinmay  1690  1222  1690 142162 10504 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+schinmay  1690  1222  1770 142162 10504 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+schinmay  1690  1222  1772 142162 10504 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+schinmay  1690  1222  1776 142162 10504 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-power/indicator-power-service
+schinmay  1691  1222  1691 308231 20580 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+schinmay  1691  1222  1716 308231 20580 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+schinmay  1691  1222  1745 308231 20580 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+schinmay  1691  1222  1747 308231 20580 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+schinmay  1691  1222  1748 308231 20580 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+schinmay  1691  1222  1886 308231 20580 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-datetime/indicator-datetime-service
+schinmay  1692  1222  1692 162263 28856 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
+schinmay  1692  1222  1714 162263 28856 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
+schinmay  1692  1222  1723 162263 28856 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
+schinmay  1692  1222  1724 162263 28856 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-keyboard/indicator-keyboard-service --use-gtk
+schinmay  1699  1222  1699 184369 12876 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+schinmay  1699  1222  1712 184369 12876 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+schinmay  1699  1222  1715 184369 12876 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+schinmay  1699  1222  1717 184369 12876 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-sound/indicator-sound-service
+schinmay  1700  1222  1700 136875 25104 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+schinmay  1700  1222  1736 136875 25104 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+schinmay  1700  1222  1739 136875 25104 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+schinmay  1700  1222  1740 136875 25104 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-printers/indicator-printers-service
+schinmay  1701  1222  1701 156300 8364 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+schinmay  1701  1222  1702 156300 8364 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+schinmay  1701  1222  1703 156300 8364 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+schinmay  1701  1222  1705 156300 8364 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-session/indicator-session-service
+schinmay  1727  1222  1727 100794 12744 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+schinmay  1727  1222  1733 100794 12744 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+schinmay  1727  1222  1735 100794 12744 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/indicator-application/indicator-application-service
+schinmay  1732  1222  1732 125208 12836 03:45 00:00:30 /usr/bin/pulseaudio --start --log-target=syslog
+schinmay  1732  1222  1768 125208 12836 03:45 00:00:36 /usr/bin/pulseaudio --start --log-target=syslog
+schinmay  1732  1222  1769 125208 12836 03:45 00:00:00 /usr/bin/pulseaudio --start --log-target=syslog
+schinmay  1762  1222  1762 44698  5044 03:45 00:00:00 /usr/lib/dconf/dconf-service
+schinmay  1762  1222  1764 44698  5044 03:45 00:00:00 /usr/lib/dconf/dconf-service
+schinmay  1762  1222  1765 44698  5044 03:45 00:00:00 /usr/lib/dconf/dconf-service
+schinmay  1767  1222  1767 157120 23404 03:45 00:00:00 /usr/lib/evolution/evolution-source-registry
+schinmay  1767  1222  1782 157120 23404 03:45 00:00:00 /usr/lib/evolution/evolution-source-registry
+schinmay  1767  1222  1783 157120 23404 03:45 00:00:00 /usr/lib/evolution/evolution-source-registry
+schinmay  1767  1222  1784 157120 23404 03:45 00:00:00 /usr/lib/evolution/evolution-source-registry
+schinmay  1778  1222  1778 122756 32976 03:45 00:00:05 /usr/lib/x86_64-linux-gnu/notify-osd
+schinmay  1778  1222  1779 122756 32976 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/notify-osd
+schinmay  1778  1222  1780 122756 32976 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/notify-osd
+schinmay  1778  1222  1781 122756 32976 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/notify-osd
+schinmay  1785  1653  1785  5592  1128 03:45 00:00:00 syndaemon -i 1.0 -t -K -R
+schinmay  1821  1660  1821 127823 22748 03:45 00:00:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+schinmay  1821  1660  1824 127823 22748 03:45 00:00:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+schinmay  1821  1660  1825 127823 22748 03:45 00:00:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+schinmay  1821  1660  1826 127823 22748 03:45 00:00:00 /usr/lib/unity-settings-daemon/unity-fallback-mount-helper
+schinmay  1822  1660  1822 107332 19616 03:45 00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+schinmay  1822  1660  1843 107332 19616 03:45 00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+schinmay  1822  1660  1844 107332 19616 03:45 00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+schinmay  1822  1660  1845 107332 19616 03:45 00:00:00 /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
+schinmay  1823  1660  1823 183884 74508 03:45 00:00:00 /usr/bin/gnome-software --gapplication-service
+schinmay  1823  1660  1872 183884 74508 03:45 00:00:00 /usr/bin/gnome-software --gapplication-service
+schinmay  1823  1660  1873 183884 74508 03:45 00:00:00 /usr/bin/gnome-software --gapplication-service
+schinmay  1823  1660  1874 183884 74508 03:45 00:00:00 /usr/bin/gnome-software --gapplication-service
+schinmay  1829  1660  1829 304307 81740 03:45 00:00:50 nautilus -n
+schinmay  1829  1660  1895 304307 81740 03:45 00:00:00 nautilus -n
+schinmay  1829  1660  1896 304307 81740 03:45 00:00:01 nautilus -n
+schinmay  1829  1660  1898 304307 81740 03:45 00:00:00 nautilus -n
+schinmay  1829  1660  6622 304307 81740 04:04 00:00:00 nautilus -n
+schinmay  1829  1660  6623 304307 81740 04:04 00:00:00 nautilus -n
+schinmay  1829  1660  6624 304307 81740 04:04 00:00:00 nautilus -n
+schinmay  1829  1660  6625 304307 81740 04:04 00:00:00 nautilus -n
+schinmay  1830  1660  1830 184464 35016 03:45 00:00:01 nm-applet
+schinmay  1830  1660  1840 184464 35016 03:45 00:00:00 nm-applet
+schinmay  1830  1660  1841 184464 35016 03:45 00:00:00 nm-applet
+schinmay  1830  1660  1842 184464 35016 03:45 00:00:00 nm-applet
+schinmay  1835  1222  1835 89807  7996 03:45 00:00:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+schinmay  1835  1222  1847 89807  7996 03:45 00:00:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+schinmay  1835  1222  1848 89807  7996 03:45 00:00:00 /usr/lib/gvfs/gvfs-udisks2-volume-monitor
+root      1849     1  1849 110240 11040 03:45 00:00:00 /usr/lib/udisks2/udisksd --no-debug
+root      1849     1  1851 110240 11040 03:45 00:00:00 /usr/lib/udisks2/udisksd --no-debug
+root      1849     1  1853 110240 11040 03:45 00:00:00 /usr/lib/udisks2/udisksd --no-debug
+root      1849     1  1854 110240 11040 03:45 00:00:00 /usr/lib/udisks2/udisksd --no-debug
+root      1849     1  1857 110240 11040 03:45 00:00:00 /usr/lib/udisks2/udisksd --no-debug
+schinmay  1855  1222  1855 309205 114736 03:45 00:08:50 compiz
+schinmay  1855  1222  1889 309205 114736 03:45 00:00:00 compiz
+schinmay  1855  1222  1890 309205 114736 03:45 00:00:00 compiz
+schinmay  1855  1222  1891 309205 114736 03:45 00:00:01 compiz
+schinmay  1855  1222  5915 309205 114736 03:50 00:00:00 compiz
+schinmay  1855  1222  5916 309205 114736 03:50 00:00:00 compiz
+schinmay  1855  1222  5917 309205 114736 03:50 00:00:00 compiz
+schinmay  1855  1222  5918 309205 114736 03:50 00:00:00 compiz
+schinmay  1860  1222  1860 100902 8928 03:45 00:00:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+schinmay  1860  1222  1861 100902 8928 03:45 00:00:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+schinmay  1860  1222  1862 100902 8928 03:45 00:00:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+schinmay  1860  1222  1864 100902 8928 03:45 00:00:00 /usr/lib/gvfs/gvfs-afc-volume-monitor
+schinmay  1866  1222  1866 64382  6936 03:45 00:00:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+schinmay  1866  1222  1867 64382  6936 03:45 00:00:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+schinmay  1866  1222  1868 64382  6936 03:45 00:00:00 /usr/lib/gvfs/gvfs-goa-volume-monitor
+schinmay  1871  1222  1871 67959  5384 03:45 00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+schinmay  1871  1222  1875 67959  5384 03:45 00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+schinmay  1871  1222  1877 67959  5384 03:45 00:00:00 /usr/lib/gvfs/gvfs-gphoto2-volume-monitor
+schinmay  1879  1222  1879 64909  4844 03:45 00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+schinmay  1879  1222  1880 64909  4844 03:45 00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+schinmay  1879  1222  1882 64909  4844 03:45 00:00:00 /usr/lib/gvfs/gvfs-mtp-volume-monitor
+schinmay  1888  1222  1888 215743 59640 03:45 00:00:00 /usr/lib/evolution/evolution-calendar-factory
+schinmay  1888  1222  1921 215743 59640 03:45 00:00:00 /usr/lib/evolution/evolution-calendar-factory
+schinmay  1888  1222  1922 215743 59640 03:45 00:00:00 /usr/lib/evolution/evolution-calendar-factory
+schinmay  1888  1222  1923 215743 59640 03:45 00:00:00 /usr/lib/evolution/evolution-calendar-factory
+schinmay  1888  1222  1924 215743 59640 03:45 00:00:00 /usr/lib/evolution/evolution-calendar-factory
+root      1894     1  1894 157220 34140 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/fwupd/fwupd
+root      1894     1  1903 157220 34140 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/fwupd/fwupd
+root      1894     1  1966 157220 34140 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/fwupd/fwupd
+root      1894     1  1967 157220 34140 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/fwupd/fwupd
+root      1894     1  1968 157220 34140 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/fwupd/fwupd
+root      1894     1  1969 157220 34140 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/fwupd/fwupd
+root      1894     1  1970 157220 34140 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/fwupd/fwupd
+root      1901     1  1901  3105  2420 03:45 00:00:00 /sbin/mount.ntfs /dev/sdb1 /media/schinmay/Sid's Recreational Drive -o rw,nodev,nosuid,uid=1000,gid=1000,uhelper=udisks2
+schinmay  1905  1222  1905 90009  7744 03:45 00:00:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+schinmay  1905  1222  1906 90009  7744 03:45 00:00:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+schinmay  1905  1222  1907 90009  7744 03:45 00:00:00 /usr/lib/gvfs/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+schinmay  1916  1222  1916 46610  5932 03:45 00:00:00 /usr/lib/gvfs/gvfsd-metadata
+schinmay  1916  1222  1917 46610  5932 03:45 00:00:00 /usr/lib/gvfs/gvfsd-metadata
+schinmay  1916  1222  1918 46610  5932 03:45 00:00:00 /usr/lib/gvfs/gvfsd-metadata
+schinmay  1927  1888  1927 203997 49820 03:45 00:00:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1888x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1888/2
+schinmay  1927  1888  1928 203997 49820 03:45 00:00:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1888x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1888/2
+schinmay  1927  1888  1929 203997 49820 03:45 00:00:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1888x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1888/2
+schinmay  1927  1888  1930 203997 49820 03:45 00:00:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1888x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1888/2
+schinmay  1927  1888  1931 203997 49820 03:45 00:00:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1888x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1888/2
+schinmay  1927  1888  1934 203997 49820 03:45 00:00:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1888x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1888/2
+schinmay  1927  1888  1935 203997 49820 03:45 00:00:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory contacts --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1888x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1888/2
+schinmay  1937  1222  1937 172642 18060 03:45 00:00:00 /usr/lib/evolution/evolution-addressbook-factory
+schinmay  1937  1222  1944 172642 18060 03:45 00:00:00 /usr/lib/evolution/evolution-addressbook-factory
+schinmay  1937  1222  1951 172642 18060 03:45 00:00:00 /usr/lib/evolution/evolution-addressbook-factory
+schinmay  1937  1222  1952 172642 18060 03:45 00:00:00 /usr/lib/evolution/evolution-addressbook-factory
+schinmay  1937  1222  1953 172642 18060 03:45 00:00:00 /usr/lib/evolution/evolution-addressbook-factory
+schinmay  1939  1888  1939 265596 53384 03:45 00:00:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1888x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1888/3
+schinmay  1939  1888  1940 265596 53384 03:45 00:00:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1888x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1888/3
+schinmay  1939  1888  1941 265596 53384 03:45 00:00:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1888x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1888/3
+schinmay  1939  1888  1942 265596 53384 03:45 00:00:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1888x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1888/3
+schinmay  1939  1888  1943 265596 53384 03:45 00:00:00 /usr/lib/evolution/evolution-calendar-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.Calendarx1888x3 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/Calendar/1888/3
+schinmay  1959  1937  1959 191516 17508 03:45 00:00:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx1937x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/1937/2
+schinmay  1959  1937  1960 191516 17508 03:45 00:00:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx1937x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/1937/2
+schinmay  1959  1937  1962 191516 17508 03:45 00:00:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx1937x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/1937/2
+schinmay  1959  1937  1963 191516 17508 03:45 00:00:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx1937x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/1937/2
+schinmay  1959  1937  1964 191516 17508 03:45 00:00:00 /usr/lib/evolution/evolution-addressbook-factory-subprocess --factory local --bus-name org.gnome.evolution.dataserver.Subprocess.Backend.AddressBookx1937x2 --own-path /org/gnome/evolution/dataserver/Subprocess/Backend/AddressBook/1937/2
+schinmay  2001  1660  2001 130174 20792 03:45 00:00:01 zeitgeist-datahub
+schinmay  2001  1660  2004 130174 20792 03:45 00:00:00 zeitgeist-datahub
+schinmay  2001  1660  2006 130174 20792 03:45 00:00:00 zeitgeist-datahub
+schinmay  2001  1660  2022 130174 20792 03:45 00:00:00 zeitgeist-datahub
+schinmay  2001  1660  2023 130174 20792 03:45 00:00:00 zeitgeist-datahub
+schinmay  2001  1660  2024 130174 20792 03:45 00:00:00 zeitgeist-datahub
+schinmay  2001  1660  2025 130174 20792 03:45 00:00:00 zeitgeist-datahub
+schinmay  2008  1222  2008  1126   752 03:45 00:00:00 /bin/sh -c /usr/lib/x86_64-linux-gnu/zeitgeist/zeitgeist-maybe-vacuum; /usr/bin/zeitgeist-daemon
+schinmay  2012  2008  2012 102663 10032 03:45 00:00:00 /usr/bin/zeitgeist-daemon
+schinmay  2012  2008  2013 102663 10032 03:45 00:00:00 /usr/bin/zeitgeist-daemon
+schinmay  2012  2008  2014 102663 10032 03:45 00:00:00 /usr/bin/zeitgeist-daemon
+schinmay  2019  1222  2019 79511 16684 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+schinmay  2019  1222  2035 79511 16684 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+schinmay  2019  1222  2036 79511 16684 03:45 00:00:00 /usr/lib/x86_64-linux-gnu/zeitgeist-fts
+root      2072   825  2072  4031  3664 03:46 00:00:00 /sbin/dhclient -d -q -sf /usr/lib/NetworkManager/nm-dhcp-helper -pf /var/run/dhclient-wlp3s0.pid -lf /var/lib/NetworkManager/dhclient-98a09bdf-1416-4803-817b-fd4d871ab7e2-wlp3s0.lease -cf /var/lib/NetworkManager/dhclient-wlp3s0.conf wlp3s0
+schinmay  2206  1222  2206 322751 252188 03:46 00:06:18 /opt/google/chrome/chrome
+schinmay  2206  1222  2215 322751 252188 03:46 00:00:03 /opt/google/chrome/chrome
+schinmay  2206  1222  2227 322751 252188 03:46 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  2228 322751 252188 03:46 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  2229 322751 252188 03:46 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  2230 322751 252188 03:46 00:00:01 /opt/google/chrome/chrome
+schinmay  2206  1222  2231 322751 252188 03:46 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  2232 322751 252188 03:46 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  2233 322751 252188 03:46 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  2234 322751 252188 03:46 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  2248 322751 252188 03:46 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  2249 322751 252188 03:46 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  2258 322751 252188 03:46 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  2259 322751 252188 03:46 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  2260 322751 252188 03:46 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  2261 322751 252188 03:46 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  2262 322751 252188 03:46 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  2263 322751 252188 03:46 00:02:09 /opt/google/chrome/chrome
+schinmay  2206  1222  2264 322751 252188 03:46 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  2265 322751 252188 03:46 00:00:56 /opt/google/chrome/chrome
+schinmay  2206  1222  2266 322751 252188 03:46 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  2267 322751 252188 03:46 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  2268 322751 252188 03:46 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  2294 322751 252188 03:46 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  2296 322751 252188 03:46 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  2306 322751 252188 03:46 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  2307 322751 252188 03:46 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  2316 322751 252188 03:46 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  2337 322751 252188 03:46 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  2707 322751 252188 03:47 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  2754 322751 252188 03:47 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  6233 322751 252188 04:00 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  6399 322751 252188 04:03 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  7250 322751 252188 04:14 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  7739 322751 252188 04:33 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  7786 322751 252188 04:35 00:00:00 /opt/google/chrome/chrome
+schinmay  2206  1222  7790 322751 252188 04:35 00:00:00 /opt/google/chrome/chrome
+schinmay  2213  2206  2213  1861   672 03:46 00:00:00 cat
+schinmay  2214  2206  2214  1861   660 03:46 00:00:00 cat
+schinmay  2217  2206  2217 105609 54880 03:46 00:00:00 /opt/google/chrome/chrome --type=zygote --enable-crash-reporter=517fa854-b6c1-4bde-bbed-c070c33c77a8,
+schinmay  2218  2217  2218 25957  7320 03:46 00:00:00 /opt/google/chrome/nacl_helper
+schinmay  2226  2217  2226 105609 13732 03:46 00:00:00 /opt/google/chrome/chrome --type=zygote --enable-crash-reporter=517fa854-b6c1-4bde-bbed-c070c33c77a8,
+schinmay  2515  1660  2515 131231 28932 03:46 00:00:00 update-notifier
+schinmay  2515  1660  2532 131231 28932 03:46 00:00:00 update-notifier
+schinmay  2515  1660  2533 131231 28932 03:46 00:00:00 update-notifier
+schinmay  2515  1660  2534 131231 28932 03:46 00:00:00 update-notifier
+schinmay  2668  1222  2668 166682 41224 03:47 00:00:14 /usr/lib/gnome-terminal/gnome-terminal-server
+schinmay  2668  1222  2669 166682 41224 03:47 00:00:00 /usr/lib/gnome-terminal/gnome-terminal-server
+schinmay  2668  1222  2670 166682 41224 03:47 00:00:00 /usr/lib/gnome-terminal/gnome-terminal-server
+schinmay  2668  1222  2671 166682 41224 03:47 00:00:00 /usr/lib/gnome-terminal/gnome-terminal-server
+schinmay  2675  2668  2675  5690  5420 03:47 00:00:00 bash
+schinmay  2699  2675  2699  1126   712 03:47 00:00:00 /bin/sh ./fortisslvpn.sh
+schinmay  2701  2699  2701 145359 28876 03:47 00:01:07 ./forticlientsslvpn
+schinmay  2701  2699  2702 145359 28876 03:47 00:00:00 ./forticlientsslvpn
+schinmay  2701  2699  2703 145359 28876 03:47 00:00:00 ./forticlientsslvpn
+schinmay  2701  2699  2704 145359 28876 03:47 00:00:00 ./forticlientsslvpn
+schinmay  2701  2699  6836 145359 28876 04:07 00:00:00 ./forticlientsslvpn
+schinmay  2733  1660  2733 127296 8928 03:47 00:00:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+schinmay  2733  1660  2739 127296 8928 03:47 00:00:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+schinmay  2733  1660  2740 127296 8928 03:47 00:00:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+schinmay  2733  1660  2741 127296 8928 03:47 00:00:00 /usr/lib/x86_64-linux-gnu/deja-dup/deja-dup-monitor
+schinmay  2797  1222  2797 88235  6740 03:48 00:00:00 /usr/lib/gvfs/gvfsd-network --spawner :1.3 /org/gtk/gvfs/exec_spaw/1
+schinmay  2797  1222  2798 88235  6740 03:48 00:00:00 /usr/lib/gvfs/gvfsd-network --spawner :1.3 /org/gtk/gvfs/exec_spaw/1
+schinmay  2797  1222  2799 88235  6740 03:48 00:00:00 /usr/lib/gvfs/gvfsd-network --spawner :1.3 /org/gtk/gvfs/exec_spaw/1
+schinmay  2797  1222  2802 88235  6740 03:48 00:00:00 /usr/lib/gvfs/gvfsd-network --spawner :1.3 /org/gtk/gvfs/exec_spaw/1
+root      2829     1  2829  3219  2976 03:48 00:00:05 /sbin/mount.ntfs /dev/sda2 /media/schinmay/62CC7F3CCC7F0995 -o rw,nodev,nosuid,uid=1000,gid=1000,uhelper=udisks2
+schinmay  2914  1222  2914 90429  8740 03:48 00:00:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.3 /org/gtk/gvfs/exec_spaw/8
+schinmay  2914  1222  2915 90429  8740 03:48 00:00:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.3 /org/gtk/gvfs/exec_spaw/8
+schinmay  2914  1222  2916 90429  8740 03:48 00:00:00 /usr/lib/gvfs/gvfsd-dnssd --spawner :1.3 /org/gtk/gvfs/exec_spaw/8
+root      5770     1  5770 23308  7400 03:50 00:00:00 /usr/sbin/cupsd -l
+root      5772     1  5772 68704  9684 03:50 00:00:00 /usr/sbin/cups-browsed
+root      5772     1  5777 68704  9684 03:50 00:00:00 /usr/sbin/cups-browsed
+root      5772     1  5778 68704  9684 03:50 00:00:00 /usr/sbin/cups-browsed
+lp        5774  5770  5774 20311  5596 03:50 00:00:00 /usr/lib/cups/notifier/dbus dbus://
+lp        5775  5770  5775 20311  5588 03:50 00:00:00 /usr/lib/cups/notifier/dbus dbus://
+schinmay  5924  1222  5924 576564 277820 03:51 00:00:00 /usr/bin/vlc --started-from-file /media/schinmay/62CC7F3CCC7F0995/Users/Star/Videos/8. Try Your Luck ⁄ Hunter x Hunter (2011) OST II.mp3
+schinmay  5924  1222  5927 576564 277820 03:51 00:00:16 /usr/bin/vlc --started-from-file /media/schinmay/62CC7F3CCC7F0995/Users/Star/Videos/8. Try Your Luck ⁄ Hunter x Hunter (2011) OST II.mp3
+schinmay  5924  1222  5928 576564 277820 03:51 00:00:00 /usr/bin/vlc --started-from-file /media/schinmay/62CC7F3CCC7F0995/Users/Star/Videos/8. Try Your Luck ⁄ Hunter x Hunter (2011) OST II.mp3
+schinmay  5924  1222  5930 576564 277820 03:51 00:00:00 /usr/bin/vlc --started-from-file /media/schinmay/62CC7F3CCC7F0995/Users/Star/Videos/8. Try Your Luck ⁄ Hunter x Hunter (2011) OST II.mp3
+schinmay  5924  1222  5933 576564 277820 03:51 00:00:35 /usr/bin/vlc --started-from-file /media/schinmay/62CC7F3CCC7F0995/Users/Star/Videos/8. Try Your Luck ⁄ Hunter x Hunter (2011) OST II.mp3
+schinmay  5924  1222  5934 576564 277820 03:51 00:00:01 /usr/bin/vlc --started-from-file /media/schinmay/62CC7F3CCC7F0995/Users/Star/Videos/8. Try Your Luck ⁄ Hunter x Hunter (2011) OST II.mp3
+schinmay  5924  1222  5936 576564 277820 03:51 00:00:00 /usr/bin/vlc --started-from-file /media/schinmay/62CC7F3CCC7F0995/Users/Star/Videos/8. Try Your Luck ⁄ Hunter x Hunter (2011) OST II.mp3
+schinmay  5924  1222  5937 576564 277820 03:51 00:00:00 /usr/bin/vlc --started-from-file /media/schinmay/62CC7F3CCC7F0995/Users/Star/Videos/8. Try Your Luck ⁄ Hunter x Hunter (2011) OST II.mp3
+schinmay  5924  1222  5938 576564 277820 03:51 00:00:00 /usr/bin/vlc --started-from-file /media/schinmay/62CC7F3CCC7F0995/Users/Star/Videos/8. Try Your Luck ⁄ Hunter x Hunter (2011) OST II.mp3
+schinmay  5924  1222  5944 576564 277820 03:51 00:00:00 /usr/bin/vlc --started-from-file /media/schinmay/62CC7F3CCC7F0995/Users/Star/Videos/8. Try Your Luck ⁄ Hunter x Hunter (2011) OST II.mp3
+schinmay  5924  1222  7702 576564 277820 04:32 00:00:01 /usr/bin/vlc --started-from-file /media/schinmay/62CC7F3CCC7F0995/Users/Star/Videos/8. Try Your Luck ⁄ Hunter x Hunter (2011) OST II.mp3
+schinmay  5924  1222  7704 576564 277820 04:32 00:00:26 /usr/bin/vlc --started-from-file /media/schinmay/62CC7F3CCC7F0995/Users/Star/Videos/8. Try Your Luck ⁄ Hunter x Hunter (2011) OST II.mp3
+schinmay  5924  1222  7705 576564 277820 04:32 00:00:26 /usr/bin/vlc --started-from-file /media/schinmay/62CC7F3CCC7F0995/Users/Star/Videos/8. Try Your Luck ⁄ Hunter x Hunter (2011) OST II.mp3
+schinmay  5924  1222  7706 576564 277820 04:32 00:00:26 /usr/bin/vlc --started-from-file /media/schinmay/62CC7F3CCC7F0995/Users/Star/Videos/8. Try Your Luck ⁄ Hunter x Hunter (2011) OST II.mp3
+schinmay  5924  1222  7707 576564 277820 04:32 00:00:26 /usr/bin/vlc --started-from-file /media/schinmay/62CC7F3CCC7F0995/Users/Star/Videos/8. Try Your Luck ⁄ Hunter x Hunter (2011) OST II.mp3
+schinmay  5924  1222  7708 576564 277820 04:32 00:00:05 /usr/bin/vlc --started-from-file /media/schinmay/62CC7F3CCC7F0995/Users/Star/Videos/8. Try Your Luck ⁄ Hunter x Hunter (2011) OST II.mp3
+schinmay  5924  1222  7709 576564 277820 04:32 00:00:13 /usr/bin/vlc --started-from-file /media/schinmay/62CC7F3CCC7F0995/Users/Star/Videos/8. Try Your Luck ⁄ Hunter x Hunter (2011) OST II.mp3
+schinmay  5924  1222  7710 576564 277820 04:32 00:00:06 /usr/bin/vlc --started-from-file /media/schinmay/62CC7F3CCC7F0995/Users/Star/Videos/8. Try Your Luck ⁄ Hunter x Hunter (2011) OST II.mp3
+root      6009     1  6009  3200  2776 03:51 00:00:01 /sbin/mount.ntfs /dev/sda3 /media/schinmay/E87210A772107C8E -o rw,nodev,nosuid,uid=1000,gid=1000,uhelper=udisks2
+root      6212     2  6212     0     0 03:59 00:00:01 [kworker/2:2]
+schinmay  6811  1222  6811 254512 148236 04:07 00:00:11 evince /media/schinmay/62CC7F3CCC7F0995/Users/Star/Downloads/redeem-assignment.pdf
+schinmay  6811  1222  6813 254512 148236 04:07 00:00:00 evince /media/schinmay/62CC7F3CCC7F0995/Users/Star/Downloads/redeem-assignment.pdf
+schinmay  6811  1222  6814 254512 148236 04:07 00:00:00 evince /media/schinmay/62CC7F3CCC7F0995/Users/Star/Downloads/redeem-assignment.pdf
+schinmay  6811  1222  6815 254512 148236 04:07 00:00:00 evince /media/schinmay/62CC7F3CCC7F0995/Users/Star/Downloads/redeem-assignment.pdf
+schinmay  6811  1222  6821 254512 148236 04:07 00:00:00 evince /media/schinmay/62CC7F3CCC7F0995/Users/Star/Downloads/redeem-assignment.pdf
+schinmay  6818  1222  6818 44624  4084 04:07 00:00:00 /usr/lib/evince/evinced
+schinmay  6818  1222  6819 44624  4084 04:07 00:00:00 /usr/lib/evince/evinced
+schinmay  6818  1222  6820 44624  4084 04:07 00:00:00 /usr/lib/evince/evinced
+schinmay  6835  1222  6835 145359 7224 04:07 00:00:00 ./forticlientsslvpn
+schinmay  6838  6835  6838 145411 8672 04:07 00:00:00 ./forticlientsslvpn
+schinmay  6838  6835  6841 145411 8672 04:07 00:00:00 ./forticlientsslvpn
+schinmay  6842  6835  6842 146974 13408 04:07 00:00:00 ./forticlientsslvpn
+schinmay  6842  6835  6856 146974 13408 04:07 00:00:00 ./forticlientsslvpn
+schinmay  6842  6835  6857 146974 13408 04:07 00:00:00 ./forticlientsslvpn
+schinmay  6842  6835  6858 146974 13408 04:07 00:00:00 ./forticlientsslvpn
+schinmay  6842  6835  6859 146974 13408 04:07 00:00:00 ./forticlientsslvpn
+root      7288     2  7288     0     0 04:15 00:00:00 [kworker/3:2]
+schinmay  7451  1222  7451 164585 41280 04:22 00:00:03 gedit /home/schinmay/Desktop/Assignments/160685A2/q2.awk
+schinmay  7451  1222  7453 164585 41280 04:22 00:00:00 gedit /home/schinmay/Desktop/Assignments/160685A2/q2.awk
+schinmay  7451  1222  7454 164585 41280 04:22 00:00:00 gedit /home/schinmay/Desktop/Assignments/160685A2/q2.awk
+schinmay  7451  1222  7455 164585 41280 04:22 00:00:00 gedit /home/schinmay/Desktop/Assignments/160685A2/q2.awk
+root      7533     2  7533     0     0 04:26 00:00:00 [kworker/3:0]
+root      7565     2  7565     0     0 04:26 00:00:00 [kworker/2:1]
+root      7567     2  7567     0     0 04:26 00:00:00 [kworker/1:0]
+root      7587     2  7587     0     0 04:28 00:00:00 [kworker/0:1]
+root      7618     2  7618     0     0 04:28 00:00:00 [kworker/u8:3]
+schinmay  7643  2668  7643  5677  5312 04:29 00:00:00 bash
+root      7685     2  7685     0     0 04:31 00:00:00 [kworker/3:1]
+root      7691     2  7691     0     0 04:31 00:00:00 [kworker/2:0]
+root      7694     2  7694     0     0 04:32 00:00:00 [kworker/1:2]
+root      7717     2  7717     0     0 04:33 00:00:00 [kworker/2:3]
+root      7741     2  7741     0     0 04:33 00:00:00 [kworker/0:2]
+root      7760     2  7760     0     0 04:34 00:00:00 [kworker/3:3]
+root      7778     2  7778     0     0 04:35 00:00:00 [kworker/u8:0]
+schinmay  7791  7223  7791  9341  3288 04:36 00:00:00 ps -eLo uname,pid,ppid,lwp,sz,rss,start_time,time,cmd

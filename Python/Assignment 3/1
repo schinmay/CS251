@@ -1,0 +1,107 @@
+#!/usr/bin/python
+import os
+import sys
+import numpy as np
+import matplotlib.pyplot as plt
+
+#Step 1
+mode = 'r'
+filename = 'train.csv'
+fo = open(filename, mode)
+line=fo.readline()
+n_train=10000
+i=0
+X_train=np.random.rand(n_train,1)
+y_train=np.random.rand(n_train,1)
+for line in fo:
+	X_train[i],y_train[i]=line.split(",")
+	i+=1
+X_train=np.insert(X_train, 0, 1, axis=1)
+fo.close()
+print X_train.shape
+#Step 2
+w=np.random.rand(2,1)
+
+#Step 3
+plt.plot(X_train[:,1],y_train,'b.',label='Label vs Feature')
+wt=w.transpose()
+xt=X_train.transpose()
+y=np.dot(wt,xt)
+plt.plot(X_train[:,1],y.transpose(),'-r',label="w^T*x' vs x")
+plt.legend()
+plt.show()
+
+#Step 4
+X_train=np.matrix(X_train)
+y_train=np.matrix(y_train)
+w_direct=(np.linalg.inv(X_train.transpose() * X_train))*X_train.transpose()*y_train
+plt.plot(X_train[:,1],y_train,'b.',label='Label vs Feature')
+wt_direct=w_direct.transpose()
+xt=X_train.transpose()
+y=np.dot(wt_direct,xt)
+plt.plot(X_train[:,1],y.transpose(),'-r',label="w_direct^T*x' vs x")
+plt.legend()
+plt.show()
+
+#Step 5
+for nepoch in range(1,2):
+	for j in range(1,n_train):
+		x=X_train(j,1)
+		y=y_train[j]
+		xt=X_train[j].transpose()
+		eta=0.00000001
+		w=np.matrix(w)
+		w-=eta*(w.transpose()*xt-y)*xt
+		
+		if j%100==0:
+			plt.plot(X_train[:,1],y_train,'b.',label='Label vs Feature')
+			wt=w.transpose()
+			xt=X_train.transpose()
+			y=np.dot(wt,xt)
+			plt.plot(X_train[:,1],y.transpose(),'-r',label="w^T*x' vs x")
+			plt.legend()
+			plt.show()
+
+#Step 6
+plt.plot(X_train[:,1],y_train,'b.',label='Label vs Feature')
+wt=w.transpose()
+xt=X_train.transpose()
+y=np.dot(wt,xt)
+plt.plot(X_train[:,1],y.transpose(),'-r',label="w^T*x' vs x")
+plt.legend()
+plt.show()
+
+#Step 7
+mode = 'r'
+filename = 'test.csv'
+fo = open(filename, mode)
+line=fo.readline()
+n_test=1000
+i=0
+X_test=np.random.rand(n_test,1)
+y_test=np.random.rand(n_test,1)
+for line in fo:
+	X_test[i],y_test[i]=line.split(",")
+	i+=1
+X_test=np.insert(X_test, 0, 1, axis=1)
+fo.close()
+
+X_test=np.matrix(X_test)
+y_test=np.matrix(y_test)
+
+y_pred1=X_test*w
+y_pred2=X_test*w_direct
+
+
+rmse_w=np.sqrt(((y_pred1 - y_test) ** 2).mean())
+print "Root mean squared error for w is" + str(rmse_w)
+
+rmse_w_direct=np.sqrt(((y_pred2 - y_test) ** 2).mean())
+print "Root mean squared error for w_direct is" + str(rmse_w_direct)
+
+exit(0)
+
+
+
+
+
